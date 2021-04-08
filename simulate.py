@@ -26,7 +26,7 @@ class Modal:
         self.cure_rate = 0.1#治愈概率
 
         self.ismask = 0  #是否带口罩
-        self.isseparate = 1   #隔离
+        self.isseparate = 0   #隔离
         self.create_sick_rate = 0.01#新增病人
 
         self.people_getsick_unmask = 0.4#未戴口罩患病概率
